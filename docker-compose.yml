@@ -1,5 +1,5 @@
 services:
   habibbo-site:
     build: .
-    ports:
-      - "80:80"
+    expose:
+      - "80"
